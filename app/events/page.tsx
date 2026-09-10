@@ -1,6 +1,5 @@
 import ImagePlaceholder from "../../components/ImagePlaceholder";
 import { FaWhatsapp } from 'react-icons/fa';
-import NavLinks from "@/components/NavLinks";
 import Image from "next/image";
 import BackgroundHeroImage from '@/public/images/background/4e8ae4c4a160fae1538300c9de17cce4.webp'
 
@@ -8,10 +7,9 @@ export default function Events() {
   return (
     <div className="flex flex-col w-full bg-black min-h-screen">
       {/* Hero Section */}
-      <section className="relative w-full min-h-[45vh] md:min-h-[50vh] flex flex-col items-center justify-start">
+      <section className="relative w-full min-h-[45vh] md:min-h-[50vh] flex flex-col items-center justify-center">
         <Image src={BackgroundHeroImage} alt="Background Hero Image" className="absolute inset-0 w-full h-full border-none !p-0 opacity-40 object-cover" priority placeholder="blur" />
-        <NavLinks />
-        <div className="relative z-10 flex flex-col items-center justify-center flex-grow animate-swipe-up pb-12">
+        <div className="relative z-10 flex flex-col items-center justify-center pt-64 pb-12 md:pt-40 md:pb-0 animate-swipe-up">
           <h1 className="font-main-title text-gold text-8xl md:text-12xl font-bold tracking-widest drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]">
             EVENTS
           </h1>

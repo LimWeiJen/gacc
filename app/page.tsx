@@ -2,7 +2,6 @@ import Image from "next/image";
 import ImagePlaceholder from "../components/ImagePlaceholder";
 import Link from 'next/link';
 import HeroSlider from "../components/HeroSlider";
-import NavLinks from "@/components/NavLinks";
 import HeroPhoto1 from "@/public/images/home/group photo 1.webp"
 import HeroPhoto2 from "@/public/images/home/IMG_3101.webp"
 import HeroPhoto3 from "@/public/images/home/DSC03322.webp"
@@ -13,10 +12,9 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full bg-black min-h-screen">
       {/* Hero Section */}
-      <section className="relative w-full min-h-[75vh] flex flex-col items-center justify-start">
+      <section className="relative w-full h-[75vh]">
         <HeroSlider images={[HeroPhoto1, HeroPhoto2, HeroPhoto3, HeroPhoto4]} />
-        <NavLinks />
-        <div className="relative z-10 flex flex-col items-center justify-center flex-grow pointer-events-none animate-swipe-up pb-12">
+        <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none animate-swipe-up pt-48 md:pt-24">
           <div className="relative inline-block text-center">
             <span className="font-slogan text-white text-3xl md:text-5xl absolute -top-8 -right-8 md:-top-12 md:-right-24 z-10 drop-shadow-md whitespace-nowrap">
               Mortal minds, divine strategy

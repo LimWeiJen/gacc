@@ -44,7 +44,7 @@ export default function RootLayout({
         className={`${cinzel.variable} ${beVietnam.variable} ${greatVibes.variable} ${jost.variable} antialiased min-h-screen flex flex-col`}
       >
         <Navbar />
-        <main className="flex-grow flex flex-col">{children}</main>
+        <main className="mt-20 flex-grow flex flex-col">{children}</main>
         <Footer />
       </body>
     </html>
