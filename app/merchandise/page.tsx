@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ImagePlaceholder from "../../components/ImagePlaceholder";
+import NavLinks from "@/components/NavLinks";
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import MerchandiseImage from '@/public/images/merchandise/3dd3d5de0f41064ad4d4607d0dd5a82e.webp'
 
@@ -7,9 +8,10 @@ export default function Merchandise() {
   return (
     <div className="flex flex-col w-full bg-black min-h-screen">
       {/* Hero Section */}
-      <section className="relative w-full h-[40vh] md:h-[50vh] flex flex-col items-center justify-center">
+      <section className="relative w-full min-h-[45vh] md:min-h-[50vh] flex flex-col items-center justify-start">
         <Image src={MerchandiseImage} alt="Merchandise Hero Image" className="absolute inset-0 w-full h-full border-none !p-0 opacity-40 object-cover" priority placeholder="blur" />
-        <div className="relative z-10 flex flex-col items-center justify-center pt-16 text-center px-4 animate-swipe-up">
+        <NavLinks />
+        <div className="relative z-10 flex flex-col items-center justify-center flex-grow animate-swipe-up pb-12 text-center px-4">
           <h1 className="font-main-title text-5xl md:text-7xl font-bold tracking-widest drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]">
             MERCHANDISE
           </h1>

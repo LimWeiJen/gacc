@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ImagePlaceholder from "../../components/ImagePlaceholder";
+import NavLinks from "@/components/NavLinks";
 import { FaMoneyBillWave, FaGift, FaBullhorn, FaExternalLinkAlt } from 'react-icons/fa';
 import { TbHeartHandshake } from "react-icons/tb";
 import BackgroundHeroImage from '@/public/images/background/4e8ae4c4a160fae1538300c9de17cce4.webp'
@@ -17,9 +18,10 @@ export default function Background() {
   return (
     <div className="flex flex-col w-full bg-black min-h-screen">
       {/* Hero Section */}
-      <section className="relative w-full h-[30vh] md:h-[50vh] flex flex-col items-center justify-center">
+      <section className="relative w-full min-h-[45vh] md:min-h-[50vh] flex flex-col items-center justify-start">
         <Image src={BackgroundHeroImage} alt="Background Hero Image" className="absolute inset-0 w-full h-full border-none !p-0 opacity-40 object-cover" priority placeholder="blur" />
-        <div className="relative z-10 flex flex-col items-center justify-center pt-16 animate-swipe-up">
+        <NavLinks />
+        <div className="relative z-10 flex flex-col items-center justify-center flex-grow animate-swipe-up pb-12">
           <h1 className="font-main-title text-gold text-8xl md:text-12xl font-bold tracking-widest drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]">
             BACKGROUND
           </h1>
@@ -92,7 +94,7 @@ export default function Background() {
       </section>
 
       {/* Objectives Banner Section */}
-      <section className="relative w-full h-[20vh] md:h-[50vh] flex flex-col items-center justify-center">
+      <section className="relative w-full min-h-[45vh] md:min-h-[50vh] flex flex-col items-center justify-center">
         <Image src={ObjectivesImage} alt="Objectives Banner Image" className="absolute inset-0 w-full h-full border-none !p-0 opacity-40 object-cover" />
         <div className="relative z-10 flex flex-col items-center justify-center">
           <h2 className="font-main-title text-gold text-5xl md:text-7xl font-bold tracking-widest drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]">
@@ -154,7 +156,7 @@ export default function Background() {
       </section>
 
       {/* Sponsorship Banner Section */}
-      <section className="relative w-full h-[20vh] md:h-[50vh] flex flex-col items-center justify-center">
+      <section className="relative w-full min-h-[45vh] md:min-h-[50vh] flex flex-col items-center justify-center">
         <Image src={SponsorshipImage} alt="Sponsorship Banner Image" className="absolute inset-0 w-full h-full border-none !p-0 opacity-40 object-cover" />
         <div className="relative z-10 flex flex-col items-center justify-center">
           <h2 className="font-main-title text-gold text-5xl md:text-7xl font-bold tracking-widest drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]">
@@ -225,7 +227,7 @@ export default function Background() {
       </section>
 
       {/* Organizing Committee Banner Section */}
-      <section className="relative w-full h-[20vh] md:h-[50vh] flex flex-col items-center justify-center">
+      <section className="relative w-full min-h-[45vh] md:min-h-[50vh] flex flex-col items-center justify-center">
         <Image src={OrganizingCommitteeImage} alt="Organizing Committee Banner Image" className="absolute inset-0 w-full h-full border-none !p-0 opacity-70 object-cover" />
         <div className="relative z-10 flex flex-col items-center justify-center text-center">
           <h2 className="font-main-title text-gold text-5xl md:text-7xl font-bold tracking-widest drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)] leading-tight">
