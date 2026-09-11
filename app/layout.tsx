@@ -39,9 +39,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="overflow-x-hidden">
       <body
-        className={`${cinzel.variable} ${beVietnam.variable} ${greatVibes.variable} ${jost.variable} antialiased min-h-screen flex flex-col`}
+        className={`${cinzel.variable} ${beVietnam.variable} ${greatVibes.variable} ${jost.variable} antialiased min-h-screen flex flex-col overflow-x-hidden`}
       >
         <Navbar />
         <main className="mt-20 flex-grow flex flex-col">{children}</main>

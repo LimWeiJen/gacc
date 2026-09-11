@@ -16,11 +16,11 @@ export default function Home() {
         <HeroSlider images={[HeroPhoto1, HeroPhoto2, HeroPhoto3, HeroPhoto4]} />
         <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none animate-swipe-up pt-48 md:pt-24">
           <div className="relative inline-block text-center">
-            <span className="font-slogan text-white text-3xl md:text-5xl absolute -top-8 -right-8 md:-top-12 md:-right-24 z-10 drop-shadow-md whitespace-nowrap">
+            <span className="font-slogan text-white absolute z-10 drop-shadow-md whitespace-nowrap text-[min(5vw,3rem)] -top-[min(4vw,3rem)] -right-[min(8vw,6rem)]">
               Mortal minds, divine strategy
             </span>
-            <h1 className="font-main-title text-white text-7xl md:text-9xl font-bold tracking-widest drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]">
-              28<sup className="text-4xl md:text-6xl -top-6 md:-top-10 pr-2">TH</sup> GACC
+            <h1 className="font-main-title text-white font-bold tracking-widest drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)] text-[min(12vw,8rem)] leading-none">
+              28<sup className="pr-2 relative text-[min(6vw,3.75rem)] -top-[min(4vw,2.5rem)]">TH</sup> GACC
             </h1>
           </div>
           <p className="font-subtitle text-white text-xl md:text-2xl mt-4 font-bold drop-shadow-md tracking-wider">
@@ -31,7 +31,7 @@ export default function Home() {
 
       {/* Events Section */}
       <section className="w-full py-24 px-6 md:px-12 flex flex-col items-center bg-black">
-        <h2 className="font-main-title text-gold font-bold text-4xl md:text-6xl mb-12 tracking-wider drop-shadow-[0_0_15px_rgba(238,177,66,0.3)]">
+        <h2 className="font-main-title text-gold font-bold text-3xl sm:text-4xl md:text-6xl mb-12 tracking-wider drop-shadow-[0_0_15px_rgba(238,177,66,0.3)] text-center">
           28TH GACC EVENTS
         </h2>
         
