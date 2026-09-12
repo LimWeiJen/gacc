@@ -16,11 +16,11 @@ export default function Home() {
         <HeroSlider images={[HeroPhoto1, HeroPhoto2, HeroPhoto3, HeroPhoto4]} />
         <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none animate-swipe-up pt-48 md:pt-24">
           <div className="relative inline-block text-center">
-            <span className="font-slogan text-white absolute z-10 drop-shadow-md whitespace-nowrap text-[min(5vw,3rem)] -top-[min(4vw,3rem)] -right-[min(8vw,6rem)]">
+            <span className="font-slogan text-white absolute -translate-y-5 z-10 drop-shadow-md whitespace-nowrap text-[min(5vw,3rem)] -top-[min(4vw,3rem)] -right-[min(8vw,6rem)]">
               Mortal minds, divine strategy
             </span>
-            <h1 className="font-main-title text-white font-bold tracking-widest drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)] text-[min(12vw,8rem)] leading-none">
-              28<sup className="pr-2 relative text-[min(6vw,3.75rem)] -top-[min(4vw,2.5rem)]">TH</sup> GACC
+            <h1 className="font-main-title text-white font-bold tracking-widest drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)] text-[min(8vw,4.5rem)] leading-none text-center">
+              28<sup className="pr-2 relative text-[min(4vw,2.5rem)] -top-[min(2.5vw,1.5rem)]">TH</sup> GACC
             </h1>
           </div>
           <p className="font-subtitle text-white text-xl md:text-2xl mt-4 font-bold drop-shadow-md tracking-wider">
