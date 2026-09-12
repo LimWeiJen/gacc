@@ -14,7 +14,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative w-full h-[75vh]">
         <HeroSlider images={[HeroPhoto1, HeroPhoto2, HeroPhoto3, HeroPhoto4]} />
-        <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none animate-swipe-up pt-48 md:pt-24">
+        <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none animate-swipe-up">
           <div className="relative inline-block text-center">
             <span className="font-slogan text-white absolute -translate-y-5 z-10 drop-shadow-md whitespace-nowrap text-[min(5vw,3rem)] -top-[min(4vw,3rem)] -right-[min(8vw,6rem)]">
               Mortal minds, divine strategy

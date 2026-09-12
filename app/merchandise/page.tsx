@@ -9,7 +9,7 @@ export default function Merchandise() {
       {/* Hero Section */}
       <section className="relative w-full min-h-[45vh] md:min-h-[50vh] flex flex-col items-center justify-center">
         <Image src={MerchandiseImage} alt="Merchandise Hero Image" className="absolute inset-0 w-full h-full border-none !p-0 opacity-40 object-cover" priority placeholder="blur" />
-        <div className="relative z-10 flex flex-col items-center justify-center pt-64 pb-12 md:pt-40 md:pb-0 text-center px-4 animate-swipe-up">
+        <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 animate-swipe-up">
           <h1 className="font-main-title font-bold tracking-widest drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)] text-[min(8vw,4.5rem)] leading-none text-center">
             MERCHANDISE
           </h1>
