@@ -94,8 +94,8 @@ export default function Background() {
       {/* Objectives Banner Section */}
       <section className="relative w-full min-h-[45vh] md:min-h-[50vh] flex flex-col items-center justify-center">
         <Image src={ObjectivesImage} alt="Objectives Banner Image" className="absolute inset-0 w-full h-full border-none !p-0 opacity-40 object-cover" />
-        <div className="relative z-10 flex flex-col items-center justify-center">
-          <h2 className="font-main-title text-gold text-5xl md:text-7xl font-bold tracking-widest drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]">
+        <div className="relative z-10 flex flex-col items-center justify-center text-center px-4">
+          <h2 className="font-main-title text-gold font-bold tracking-widest drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)] text-[min(8vw,4.5rem)] leading-none text-center">
             OBJECTIVES
           </h2>
         </div>
@@ -227,8 +227,8 @@ export default function Background() {
       {/* Organizing Committee Banner Section */}
       <section className="relative w-full min-h-[45vh] md:min-h-[50vh] flex flex-col items-center justify-center">
         <Image src={OrganizingCommitteeImage} alt="Organizing Committee Banner Image" className="absolute inset-0 w-full h-full border-none !p-0 opacity-70 object-cover" />
-        <div className="relative z-10 flex flex-col items-center justify-center text-center">
-          <h2 className="font-main-title text-gold text-5xl md:text-7xl font-bold tracking-widest drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)] leading-tight">
+        <div className="relative z-10 flex flex-col items-center justify-center text-center px-4">
+          <h2 className="font-main-title text-gold font-bold tracking-widest drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)] text-[min(8vw,4.5rem)] leading-tight text-center">
             ORGANIZING<br/>COMMITTEE
           </h2>
         </div>
