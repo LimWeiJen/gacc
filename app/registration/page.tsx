@@ -22,7 +22,7 @@ export default function Registration() {
         <div className="flex flex-col items-center w-full max-w-5xl">
           <div className="text-center mb-12">
             <h2 className="font-main-title text-gold text-2xl md:text-3xl font-bold tracking-wider mb-2">EVENT 1 - CLASSICAL OPEN</h2>
-            <p className="font-main-title text-white font-bold text-sm md:text-base tracking-widest">19 - 22 MAY 2026</p>
+            <p className="font-main-title text-white font-bold text-sm md:text-base tracking-widest">24 - 27 MAY 2027</p>
           </div>
           
           <div className="flex flex-col md:flex-row items-center md:items-start gap-12 w-full">
@@ -33,7 +33,7 @@ export default function Registration() {
             <div className="w-full md:w-1/2 flex flex-col items-center md:items-start gap-8 text-white font-content pt-4">
               <div className="text-center md:text-left">
                 <p className="font-bold text-lg mb-1 tracking-wider">APPLICATION CLOSING DATE :</p>
-                <p className="text-gray-300">12 MAY 2026</p>
+                <p className="text-gray-300">17 MAY 2027</p>
               </div>
               
               <div className="text-center md:text-left">
@@ -60,19 +60,19 @@ export default function Registration() {
         {/* Event 2 */}
         <div className="flex flex-col items-center w-full max-w-5xl">
           <div className="text-center mb-12">
-            <h2 className="font-main-title text-gold text-2xl md:text-3xl font-bold tracking-wider mb-2">EVENT 2 - RAPID OPEN</h2>
-            <p className="font-main-title text-white font-bold text-sm md:text-base tracking-widest">23 MAY 2026</p>
+            <h2 className="font-main-title text-gold text-2xl md:text-3xl font-bold tracking-wider mb-2">EVENT 2 - RAPID AGE GROUP</h2>
+            <p className="font-main-title text-white font-bold text-sm md:text-base tracking-widest">28 MAY 2027</p>
           </div>
           
           <div className="flex flex-col md:flex-row items-center md:items-start gap-12 w-full">
             <div className="w-full md:w-1/2 flex justify-center">
-              <ImagePlaceholder text="Rapid Open Registration Fee Table" className="w-full max-w-md aspect-[4/5] object-contain border-none !bg-[#FDFBF7] !text-black" />
+              <ImagePlaceholder text="Rapid Age Group Registration Fee Table" className="w-full max-w-md aspect-[4/5] object-contain border-none !bg-[#FDFBF7] !text-black" />
             </div>
             
             <div className="w-full md:w-1/2 flex flex-col items-center md:items-start gap-8 text-white font-content pt-4">
               <div className="text-center md:text-left">
                 <p className="font-bold text-lg mb-1 tracking-wider">APPLICATION CLOSING DATE :</p>
-                <p className="text-gray-300">12 MAY 2026</p>
+                <p className="text-gray-300">17 MAY 2027</p>
               </div>
               
               <button className="bg-gradient-to-r from-[#F9E29B] to-[#C9933B] hover:opacity-90 text-black font-button font-bold text-sm md:text-base px-8 py-3 rounded-full tracking-wider transition-all shadow-[0_4px_15px_rgba(238,177,66,0.4)] mt-2">
@@ -85,19 +85,19 @@ export default function Registration() {
         {/* Event 3 */}
         <div className="flex flex-col items-center w-full max-w-5xl">
           <div className="text-center mb-12">
-            <h2 className="font-main-title text-gold text-2xl md:text-3xl font-bold tracking-wider mb-2">EVENT 3 - BLITZ</h2>
-            <p className="font-main-title text-white font-bold text-sm md:text-base tracking-widest">24 MAY 2026</p>
+            <h2 className="font-main-title text-gold text-2xl md:text-3xl font-bold tracking-wider mb-2">EVENT 3 - RAPID OPEN</h2>
+            <p className="font-main-title text-white font-bold text-sm md:text-base tracking-widest">29 MAY 2027</p>
           </div>
           
           <div className="flex flex-col md:flex-row items-center md:items-start gap-12 w-full">
             <div className="w-full md:w-1/2 flex justify-center">
-              <ImagePlaceholder text="Blitz Registration Fee Table" className="w-full max-w-md aspect-[4/5] object-contain border-none !bg-[#FDFBF7] !text-black" />
+              <ImagePlaceholder text="Rapid Open Registration Fee Table" className="w-full max-w-md aspect-[4/5] object-contain border-none !bg-[#FDFBF7] !text-black" />
             </div>
             
             <div className="w-full md:w-1/2 flex flex-col items-center md:items-start gap-8 text-white font-content pt-4">
               <div className="text-center md:text-left">
                 <p className="font-bold text-lg mb-1 tracking-wider">APPLICATION CLOSING DATE :</p>
-                <p className="text-gray-300">12 MAY 2026</p>
+                <p className="text-gray-300">17 MAY 2027</p>
               </div>
               
               <button className="bg-gradient-to-r from-[#F9E29B] to-[#C9933B] hover:opacity-90 text-black font-button font-bold text-sm md:text-base px-8 py-3 rounded-full tracking-wider transition-all shadow-[0_4px_15px_rgba(238,177,66,0.4)] mt-2">
@@ -110,19 +110,19 @@ export default function Registration() {
         {/* Event 4 */}
         <div className="flex flex-col items-center w-full max-w-5xl">
           <div className="text-center mb-12">
-            <h2 className="font-main-title text-gold text-2xl md:text-3xl font-bold tracking-wider mb-2">EVENT 4 - RAPID TEAM</h2>
-            <p className="font-main-title text-white font-bold text-sm md:text-base tracking-widest">25 MAY 2026</p>
+            <h2 className="font-main-title text-gold text-2xl md:text-3xl font-bold tracking-wider mb-2">EVENT 4 - BLITZ</h2>
+            <p className="font-main-title text-white font-bold text-sm md:text-base tracking-widest">29 MAY 2027</p>
           </div>
           
           <div className="flex flex-col md:flex-row items-center md:items-start gap-12 w-full">
             <div className="w-full md:w-1/2 flex justify-center">
-              <ImagePlaceholder text="Rapid Team Registration Fee Table" className="w-full max-w-md aspect-[4/5] object-contain border-none !bg-[#FDFBF7] !text-black" />
+              <ImagePlaceholder text="Blitz Registration Fee Table" className="w-full max-w-md aspect-[4/5] object-contain border-none !bg-[#FDFBF7] !text-black" />
             </div>
             
             <div className="w-full md:w-1/2 flex flex-col items-center md:items-start gap-8 text-white font-content pt-4">
               <div className="text-center md:text-left">
                 <p className="font-bold text-lg mb-1 tracking-wider">APPLICATION CLOSING DATE :</p>
-                <p className="text-gray-300">12 MAY 2026</p>
+                <p className="text-gray-300">17 MAY 2027</p>
               </div>
               
               <button className="bg-gradient-to-r from-[#F9E29B] to-[#C9933B] hover:opacity-90 text-black font-button font-bold text-sm md:text-base px-8 py-3 rounded-full tracking-wider transition-all shadow-[0_4px_15px_rgba(238,177,66,0.4)] mt-2">
@@ -135,19 +135,19 @@ export default function Registration() {
         {/* Event 5 */}
         <div className="flex flex-col items-center w-full max-w-5xl">
           <div className="text-center mb-12">
-            <h2 className="font-main-title text-gold text-2xl md:text-3xl font-bold tracking-wider mb-2">EVENT 5 - RAPID AGE GROUP</h2>
-            <p className="font-main-title text-white font-bold text-sm md:text-base tracking-widest">25 MAY 2026</p>
+            <h2 className="font-main-title text-gold text-2xl md:text-3xl font-bold tracking-wider mb-2">EVENT 5 - RAPID TEAM</h2>
+            <p className="font-main-title text-white font-bold text-sm md:text-base tracking-widest">30 MAY 2027</p>
           </div>
           
           <div className="flex flex-col md:flex-row items-center md:items-start gap-12 w-full">
             <div className="w-full md:w-1/2 flex justify-center">
-              <ImagePlaceholder text="Event 5 Registration Fee Table" className="w-full max-w-md aspect-[4/5] object-contain border-none !bg-[#FDFBF7] !text-black" />
+              <ImagePlaceholder text="Rapid Team Registration Fee Table" className="w-full max-w-md aspect-[4/5] object-contain border-none !bg-[#FDFBF7] !text-black" />
             </div>
             
             <div className="w-full md:w-1/2 flex flex-col items-center md:items-start gap-8 text-white font-content pt-4">
               <div className="text-center md:text-left">
                 <p className="font-bold text-lg mb-1 tracking-wider">APPLICATION CLOSING DATE :</p>
-                <p className="text-gray-300">12 MAY 2026</p>
+                <p className="text-gray-300">17 MAY 2027</p>
               </div>
               
               <button className="bg-gradient-to-r from-[#F9E29B] to-[#C9933B] hover:opacity-90 text-black font-button font-bold text-sm md:text-base px-8 py-3 rounded-full tracking-wider transition-all shadow-[0_4px_15px_rgba(238,177,66,0.4)] mt-2">

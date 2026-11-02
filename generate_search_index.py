@@ -8,6 +8,10 @@ def clean_text(text):
     lines = [l for l in lines if not l.strip().startswith('import ')]
     text = '\n'.join(lines)
     
+    # Remove TypeScript interfaces and type definitions
+    text = re.sub(r'interface\s+\w+\s*\{[^}]*\}', ' ', text)
+    text = re.sub(r'type\s+\w+\s*=[^;]+;', ' ', text)
+    
     # Remove JSX comments
     text = re.sub(r'\{\s*/\*.*?\*/\s*\}', ' ', text, flags=re.DOTALL)
     
@@ -21,7 +25,8 @@ def clean_text(text):
     # Remove JS expressions like className={"..."} which might have been left over
     # Actually, <[^>]+> removes className completely.
     
-    # Remove code syntax symbols
+    # Remove code syntax symbols and JSON/variable assignments
+    text = re.sub(r'const\s+\w+(\s*:\s*\w+(\[\])?)?\s*=', ' ', text)
     text = re.sub(r'[;(){}\[\]]', ' ', text)
     
     # Normalize whitespace

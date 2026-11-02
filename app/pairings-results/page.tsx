@@ -6,7 +6,6 @@ export default function PairingsResults() {
   return (
     <div className="flex flex-col w-full bg-black min-h-screen">
       {/* Hero Section */}
-      {/* Hero Section */}
       <section className="relative w-full min-h-[45vh] md:min-h-[50vh] flex flex-col items-center justify-center">
         <Image src={ResultImage} alt="Background Hero Image" className="absolute inset-0 w-full h-full border-none !p-0 opacity-40 object-cover" priority placeholder="blur" />
         <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 animate-swipe-up">
@@ -24,42 +23,15 @@ export default function PairingsResults() {
           <div className="flex flex-col gap-16">
             <div className="flex flex-col gap-4 items-start">
               <h3 className="font-main-title text-gold text-2xl font-bold uppercase tracking-wider">EVENT 1 - CLASSICAL OPEN</h3>
-              <p className="font-button text-white text-lg font-bold mb-2">19 - 22 MAY 2026</p>
+              <p className="font-button text-white text-lg font-bold mb-2">24 - 27 MAY 2027</p>
               <button className="bg-gradient-to-r from-[#F9E29B] to-[#C9933B] hover:opacity-90 text-black font-button font-bold px-8 py-2.5 rounded-full uppercase tracking-widest text-sm transition-all shadow-[0_4px_15px_rgba(238,177,66,0.4)]">
                 CHECK MY PAIRINGS
               </button>
             </div>
 
             <div className="flex flex-col gap-4 items-start">
-              <h3 className="font-main-title text-gold text-2xl font-bold uppercase tracking-wider">EVENT 2 - RAPID OPEN</h3>
-              <p className="font-button text-white text-lg font-bold mb-2">23 MAY 2026</p>
-              <button className="bg-gradient-to-r from-[#F9E29B] to-[#C9933B] hover:opacity-90 text-black font-button font-bold px-8 py-2.5 rounded-full uppercase tracking-widest text-sm transition-all shadow-[0_4px_15px_rgba(238,177,66,0.4)]">
-                CHECK MY PAIRINGS
-              </button>
-            </div>
-
-            <div className="flex flex-col gap-4 items-start">
-              <h3 className="font-main-title text-gold text-2xl font-bold uppercase tracking-wider">EVENT 3 - BLITZ</h3>
-              <p className="font-button text-white text-lg font-bold mb-2">24 MAY 2026</p>
-              <button className="bg-gradient-to-r from-[#F9E29B] to-[#C9933B] hover:opacity-90 text-black font-button font-bold px-8 py-2.5 rounded-full uppercase tracking-widest text-sm transition-all shadow-[0_4px_15px_rgba(238,177,66,0.4)]">
-                CHECK MY PAIRINGS
-              </button>
-            </div>
-          </div>
-
-          {/* Right Column */}
-          <div className="flex flex-col gap-16">
-            <div className="flex flex-col gap-4 items-start">
-              <h3 className="font-main-title text-gold text-2xl font-bold uppercase tracking-wider">EVENT 4 - RAPID TEAM</h3>
-              <p className="font-button text-white text-lg font-bold mb-2">25 MAY 2026</p>
-              <button className="bg-gradient-to-r from-[#F9E29B] to-[#C9933B] hover:opacity-90 text-black font-button font-bold px-8 py-2.5 rounded-full uppercase tracking-widest text-sm transition-all shadow-[0_4px_15px_rgba(238,177,66,0.4)]">
-                CHECK MY PAIRINGS
-              </button>
-            </div>
-
-            <div className="flex flex-col gap-4 items-start">
-              <h3 className="font-main-title text-gold text-2xl font-bold uppercase tracking-wider">EVENT 5 - RAPID AGE GROUP</h3>
-              <p className="font-button text-white text-lg font-bold mb-4">26 MAY 2026</p>
+              <h3 className="font-main-title text-gold text-2xl font-bold uppercase tracking-wider">EVENT 2 - RAPID AGE GROUP</h3>
+              <p className="font-button text-white text-lg font-bold mb-4">28 MAY 2027</p>
               
               <div className="flex flex-col gap-3 w-full sm:w-auto">
                 <button className="bg-gradient-to-r from-[#F9E29B] to-[#C9933B] hover:opacity-90 text-black font-button font-bold px-8 py-2.5 rounded-full uppercase tracking-widest text-sm transition-all shadow-[0_4px_15px_rgba(238,177,66,0.4)] text-left sm:text-center">
@@ -78,6 +50,33 @@ export default function PairingsResults() {
                   CHECK MY PAIRINGS U18
                 </button>
               </div>
+            </div>
+          </div>
+
+          {/* Right Column */}
+          <div className="flex flex-col gap-16">
+            <div className="flex flex-col gap-4 items-start">
+              <h3 className="font-main-title text-gold text-2xl font-bold uppercase tracking-wider">EVENT 3 - RAPID OPEN</h3>
+              <p className="font-button text-white text-lg font-bold mb-2">29 MAY 2027</p>
+              <button className="bg-gradient-to-r from-[#F9E29B] to-[#C9933B] hover:opacity-90 text-black font-button font-bold px-8 py-2.5 rounded-full uppercase tracking-widest text-sm transition-all shadow-[0_4px_15px_rgba(238,177,66,0.4)]">
+                CHECK MY PAIRINGS
+              </button>
+            </div>
+
+            <div className="flex flex-col gap-4 items-start">
+              <h3 className="font-main-title text-gold text-2xl font-bold uppercase tracking-wider">EVENT 4 - BLITZ</h3>
+              <p className="font-button text-white text-lg font-bold mb-2">29 MAY 2027</p>
+              <button className="bg-gradient-to-r from-[#F9E29B] to-[#C9933B] hover:opacity-90 text-black font-button font-bold px-8 py-2.5 rounded-full uppercase tracking-widest text-sm transition-all shadow-[0_4px_15px_rgba(238,177,66,0.4)]">
+                CHECK MY PAIRINGS
+              </button>
+            </div>
+
+            <div className="flex flex-col gap-4 items-start">
+              <h3 className="font-main-title text-gold text-2xl font-bold uppercase tracking-wider">EVENT 5 - RAPID TEAM</h3>
+              <p className="font-button text-white text-lg font-bold mb-2">30 MAY 2027</p>
+              <button className="bg-gradient-to-r from-[#F9E29B] to-[#C9933B] hover:opacity-90 text-black font-button font-bold px-8 py-2.5 rounded-full uppercase tracking-widest text-sm transition-all shadow-[0_4px_15px_rgba(238,177,66,0.4)]">
+                CHECK MY PAIRINGS
+              </button>
             </div>
           </div>
           

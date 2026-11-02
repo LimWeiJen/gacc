@@ -24,7 +24,7 @@ export default function Home() {
             </h1>
           </div>
           <p className="font-subtitle text-white text-xl md:text-2xl mt-4 font-bold drop-shadow-md tracking-wider">
-            from 8 May 2027 to 13 May 2027
+            from 24 May 2027 to 30 May 2027
           </p>
         </div>
       </section>
@@ -44,6 +44,9 @@ export default function Home() {
             <ImagePlaceholder text="Classical Open Poster" className="w-full h-full rounded-xl overflow-hidden border-2 border-blue-900 bg-blue-950/50" />
           </Link>
           <Link href="/events" className="w-full sm:w-[calc(50%-1.5rem)] lg:w-[calc(20%-1.5rem)] aspect-[4/5] hover:scale-105 transition-transform duration-300">
+            <ImagePlaceholder text="Rapid Age Group Poster" className="w-full h-full rounded-xl overflow-hidden border-2 border-blue-900 bg-blue-950/50" />
+          </Link>
+          <Link href="/events" className="w-full sm:w-[calc(50%-1.5rem)] lg:w-[calc(20%-1.5rem)] aspect-[4/5] hover:scale-105 transition-transform duration-300">
             <ImagePlaceholder text="Rapid Open Poster" className="w-full h-full rounded-xl overflow-hidden border-2 border-blue-900 bg-blue-950/50" />
           </Link>
           <Link href="/events" className="w-full sm:w-[calc(50%-1.5rem)] lg:w-[calc(20%-1.5rem)] aspect-[4/5] hover:scale-105 transition-transform duration-300">
@@ -51,9 +54,6 @@ export default function Home() {
           </Link>
           <Link href="/events" className="w-full sm:w-[calc(50%-1.5rem)] lg:w-[calc(20%-1.5rem)] aspect-[4/5] hover:scale-105 transition-transform duration-300">
             <ImagePlaceholder text="Rapid Team Poster" className="w-full h-full rounded-xl overflow-hidden border-2 border-blue-900 bg-blue-950/50" />
-          </Link>
-          <Link href="/events" className="w-full sm:w-[calc(50%-1.5rem)] lg:w-[calc(20%-1.5rem)] aspect-[4/5] hover:scale-105 transition-transform duration-300">
-            <ImagePlaceholder text="Rapid Age Group Poster" className="w-full h-full rounded-xl overflow-hidden border-2 border-blue-900 bg-blue-950/50" />
           </Link>
         </div>
       </section>

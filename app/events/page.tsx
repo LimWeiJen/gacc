@@ -24,7 +24,7 @@ export default function Events() {
             <div className="flex justify-between items-start">
               <div className="flex flex-col">
                 <h3 className="font-main-title text-gold text-2xl font-bold uppercase tracking-wider">EVENT 1 - CLASSICAL OPEN</h3>
-                <p className="font-button text-white text-lg font-bold">19 - 22 MAY 2026</p>
+                <p className="font-button text-white text-lg font-bold">24 - 27 MAY 2027</p>
               </div>
               <a href="#" className="bg-[#f2b05c] p-2 rounded-full text-white hover:bg-white hover:text-[#f2b05c] transition-colors">
                 <FaWhatsapp className="text-3xl" />
@@ -37,8 +37,22 @@ export default function Events() {
           <div className="flex flex-col gap-4">
             <div className="flex justify-between items-start">
               <div className="flex flex-col">
-                <h3 className="font-main-title text-gold text-2xl font-bold uppercase tracking-wider">EVENT 2 - RAPID OPEN</h3>
-                <p className="font-button text-white text-lg font-bold">23 MAY 2026</p>
+                <h3 className="font-main-title text-gold text-2xl font-bold uppercase tracking-wider">EVENT 2 - RAPID AGE GROUP</h3>
+                <p className="font-button text-white text-lg font-bold">28 MAY 2027</p>
+              </div>
+              <a href="#" className="bg-[#f2b05c] p-2 rounded-full text-white hover:bg-white hover:text-[#f2b05c] transition-colors">
+                <FaWhatsapp className="text-3xl" />
+              </a>
+            </div>
+            <ImagePlaceholder text="Rapid Age Group Poster" className="w-full aspect-[4/5] mt-4" />
+          </div>
+
+          {/* Event 3 */}
+          <div className="flex flex-col gap-4">
+            <div className="flex justify-between items-start">
+              <div className="flex flex-col">
+                <h3 className="font-main-title text-gold text-2xl font-bold uppercase tracking-wider">EVENT 3 - RAPID OPEN</h3>
+                <p className="font-button text-white text-lg font-bold">29 MAY 2027</p>
               </div>
               <a href="#" className="bg-[#f2b05c] p-2 rounded-full text-white hover:bg-white hover:text-[#f2b05c] transition-colors">
                 <FaWhatsapp className="text-3xl" />
@@ -47,12 +61,12 @@ export default function Events() {
             <ImagePlaceholder text="Rapid Open Poster" className="w-full aspect-[4/5] mt-4" />
           </div>
 
-          {/* Event 3 */}
+          {/* Event 4 */}
           <div className="flex flex-col gap-4">
             <div className="flex justify-between items-start">
               <div className="flex flex-col">
-                <h3 className="font-main-title text-gold text-2xl font-bold uppercase tracking-wider">EVENT 3 - BLITZ</h3>
-                <p className="font-button text-white text-lg font-bold">24 MAY 2026</p>
+                <h3 className="font-main-title text-gold text-2xl font-bold uppercase tracking-wider">EVENT 4 - BLITZ</h3>
+                <p className="font-button text-white text-lg font-bold">29 MAY 2027</p>
               </div>
               <a href="#" className="bg-[#f2b05c] p-2 rounded-full text-white hover:bg-white hover:text-[#f2b05c] transition-colors">
                 <FaWhatsapp className="text-3xl" />
@@ -61,32 +75,18 @@ export default function Events() {
             <ImagePlaceholder text="Blitz Poster" className="w-full aspect-[4/5] mt-4" />
           </div>
 
-          {/* Event 4 */}
+          {/* Event 5 */}
           <div className="flex flex-col gap-4">
             <div className="flex justify-between items-start">
               <div className="flex flex-col">
-                <h3 className="font-main-title text-gold text-2xl font-bold uppercase tracking-wider">EVENT 4 - RAPID TEAM</h3>
-                <p className="font-button text-white text-lg font-bold">25 MAY 2026</p>
+                <h3 className="font-main-title text-gold text-2xl font-bold uppercase tracking-wider">EVENT 5 - RAPID TEAM</h3>
+                <p className="font-button text-white text-lg font-bold">30 MAY 2027</p>
               </div>
               <a href="#" className="bg-[#f2b05c] p-2 rounded-full text-white hover:bg-white hover:text-[#f2b05c] transition-colors">
                 <FaWhatsapp className="text-3xl" />
               </a>
             </div>
             <ImagePlaceholder text="Rapid Team Poster" className="w-full aspect-[4/5] mt-4" />
-          </div>
-
-          {/* Event 5 */}
-          <div className="flex flex-col gap-4">
-            <div className="flex justify-between items-start">
-              <div className="flex flex-col">
-                <h3 className="font-main-title text-gold text-2xl font-bold uppercase tracking-wider">EVENT 5 - RAPID AGE GROUP</h3>
-                <p className="font-button text-white text-lg font-bold">25 MAY 2026</p>
-              </div>
-              <a href="#" className="bg-[#f2b05c] p-2 rounded-full text-white hover:bg-white hover:text-[#f2b05c] transition-colors">
-                <FaWhatsapp className="text-3xl" />
-              </a>
-            </div>
-            <ImagePlaceholder text="Event 5 Poster" className="w-full aspect-[4/5] mt-4" />
           </div>
         </div>
       </section>
